@@ -9,13 +9,13 @@
    
 """
 
-
 def hello_user():
     """
     Замените pass на ваш код
     """
-    pass
-
+    how_you = input()
+    while how_you != 'Хорошо':
+        how_you = input()
     
 if __name__ == "__main__":
     hello_user()
